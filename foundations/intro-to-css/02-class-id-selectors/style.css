@@ -1,1 +1,26 @@
 /* Add CSS Styling */
+
+p {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blue-text{
+    color: blue;
+    font-size: 36px;
+}
+
+div {
+    font-family: sans-serif;
+}
+
+#thirdText {
+    font-size: 24px;
+}
+
+#greenText {
+    font-weight: bold;
+    background-color: lightgreen;
+    font-size: 24px;
+
+}
