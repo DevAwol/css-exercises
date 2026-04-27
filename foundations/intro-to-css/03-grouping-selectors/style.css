@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}/* Add CSS Styling */
+
+#clickMe {
+    color: white;
+    background-color: black;
+}
+
+#clickMe2{
+    background-color: yellow;
+
+}
