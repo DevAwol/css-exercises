@@ -20,6 +20,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  display: flex;
+  margin-right: 8px;
 }
 
 .logo {
@@ -27,6 +29,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 8px;
 }
 
 button {
@@ -35,14 +38,30 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 8px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 8px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
 }
